@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contacter Lagertha</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <img src="assets/lagertha-logo-noir.png" alt="Logo" class="logo" />
+      <ul>
+        <li><a href="index.html">Bienvenue</a></li>
+        <li><a href="heroes.html">Nos Héros</a></li>
+        <li><a href="inventory.html">Inventaire</a></li>
+        <li><a href="contact.html">Nous Contacter</a></li>
+      </ul>
+    </header>
+
+    <section id="contact">
+      <form id="contactForm">
+        <label for="name">Prenom:</label><br />
+        <input type="text" id="name" name="name" value="Jean" /><br />
+        <label for="email">Courriel:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value="exemple@maildumer.com" /><br />
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          value="Je suis fier de tout l'equipe de Lagertha" /></textarea>
+        <br /><br />
+        <input type="submit" value="Soumettre" />
+      </form>
+    </section>
+
+ 
+    <script src="script.js"></script>
+  </body>
+</html>
